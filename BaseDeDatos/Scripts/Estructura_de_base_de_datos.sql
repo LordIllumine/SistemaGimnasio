@@ -13,7 +13,9 @@ CREATE TABLE dbo.users (
     foto_url         NVARCHAR(512)     NULL
 );
 GO
-
+ALTER TABLE dbo.users
+ADD password_hash NVARCHAR(512) NOT NULL;
+GO
 -- ================================================
 -- Tabla: user_profiles
 -- ================================================
