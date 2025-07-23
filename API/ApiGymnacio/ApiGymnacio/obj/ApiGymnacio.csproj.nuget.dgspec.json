@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProyectosProgra\\GymnacioRepositorio\\GimnacioControl\\API\\ApiGymnacio\\ApiGymnacio\\ApiGymnacio.csproj": {}
+    "D:\\ProyectosProgra\\GymnacioRepositorio\\SistemaGimnasio\\API\\ApiGymnacio\\ApiGymnacio\\ApiGymnacio.csproj": {}
   },
   "projects": {
-    "D:\\ProyectosProgra\\GymnacioRepositorio\\GimnacioControl\\API\\ApiGymnacio\\ApiGymnacio\\ApiGymnacio.csproj": {
+    "D:\\ProyectosProgra\\GymnacioRepositorio\\SistemaGimnasio\\API\\ApiGymnacio\\ApiGymnacio\\ApiGymnacio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosProgra\\GymnacioRepositorio\\GimnacioControl\\API\\ApiGymnacio\\ApiGymnacio\\ApiGymnacio.csproj",
+        "projectUniqueName": "D:\\ProyectosProgra\\GymnacioRepositorio\\SistemaGimnasio\\API\\ApiGymnacio\\ApiGymnacio\\ApiGymnacio.csproj",
         "projectName": "ApiGymnacio",
-        "projectPath": "D:\\ProyectosProgra\\GymnacioRepositorio\\GimnacioControl\\API\\ApiGymnacio\\ApiGymnacio\\ApiGymnacio.csproj",
+        "projectPath": "D:\\ProyectosProgra\\GymnacioRepositorio\\SistemaGimnasio\\API\\ApiGymnacio\\ApiGymnacio\\ApiGymnacio.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosProgra\\GymnacioRepositorio\\GimnacioControl\\API\\ApiGymnacio\\ApiGymnacio\\obj\\",
+        "outputPath": "D:\\ProyectosProgra\\GymnacioRepositorio\\SistemaGimnasio\\API\\ApiGymnacio\\ApiGymnacio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

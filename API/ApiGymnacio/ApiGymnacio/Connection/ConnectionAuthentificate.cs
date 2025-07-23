@@ -30,21 +30,28 @@ namespace ApiGymnacio.Connection
 
                 Connection cnn = new Connection(configuration);
 
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = cnn.AbrirConexion();
-                cmd.CommandText = _schema + ".CC_AUTENTIFICAR";
-                cmd.Parameters.AddWithValue("@USUARIO", user.Usuario);
-                cmd.CommandType = CommandType.StoredProcedure;
-                //con.Open();
-                SqlDataReader rdr = cmd.ExecuteReader();
-                while (rdr.Read())
-                {
-                    ClassAuthentificate val_cre = new ClassAuthentificate();
-                    val_cre.Usuario = rdr["USUARIO"].ToString();
-                    val_cre.Contrasena = rdr["CLAVE"].ToString();
-                    val_cre.Rol = rdr["ROL"].ToString(); ;
-                    ListCredenciales.Add(val_cre);
-                }
+                //SqlCommand cmd = new SqlCommand();
+                //cmd.Connection = cnn.AbrirConexion();
+                //cmd.CommandText = _schema + ".CC_AUTENTIFICAR";
+                //cmd.Parameters.AddWithValue("@USUARIO", user.Usuario);
+                //cmd.CommandType = CommandType.StoredProcedure;
+                ////con.Open();
+                //SqlDataReader rdr = cmd.ExecuteReader();
+                //while (rdr.Read())
+                //{
+                //    ClassAuthentificate val_cre = new ClassAuthentificate();
+                //    val_cre.Usuario = rdr["USUARIO"].ToString();
+                //    val_cre.Contrasena = rdr["CLAVE"].ToString();
+                //    val_cre.Rol = rdr["ROL"].ToString(); ;
+                //    ListCredenciales.Add(val_cre);
+                //}
+
+                ClassAuthentificate val_cre = new ClassAuthentificate();
+                val_cre.Usuario = "Diego@gamil.com";
+                val_cre.Contrasena = "1234";
+                val_cre.Rol = "Admin";
+                ListCredenciales.Add(val_cre);
+
                 return ListCredenciales;
             }
             catch (Exception ex)
@@ -54,5 +61,6 @@ namespace ApiGymnacio.Connection
                 throw;
             }
         }
+
     }
 }

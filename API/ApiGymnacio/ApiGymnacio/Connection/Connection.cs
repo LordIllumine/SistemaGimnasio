@@ -30,8 +30,10 @@ namespace ApiGymnacio.Connection
             return v_Conexion;
         }
 
-        public SqlConnection CerrarConexion(SqlConnection v_Conexion)
+        public SqlConnection CerrarConexion()
         {
+            SqlConnection v_Conexion = new SqlConnection(_cadenaConexion);
+
             try
             {
                 if (v_Conexion.State == ConnectionState.Open)
